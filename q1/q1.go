@@ -1,6 +1,5 @@
 package q1
 
-import "fmt"
 
 type Student struct {
 	Name     string

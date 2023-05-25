@@ -1,5 +1,7 @@
 package q1
 
+import "fmt"
+
 type Student struct {
 	Name     string
 	Age      int
@@ -17,8 +19,8 @@ func MergeStudentData(studentData1 map[string]Student, studentData2 map[string]S
 				student.Subjects[materia] = grade
 			}
 		} else {
-			resultado[chave]=valor
+			resultado[chave] = valor
 		}
 	}
-	return nil
+	return resultado
 }

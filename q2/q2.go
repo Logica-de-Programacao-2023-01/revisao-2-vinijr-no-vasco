@@ -58,5 +58,5 @@ func main() {
 	fmt.Println("Position:", employee.Position)
 }
 
-	return 0, errors.New("Not implemented yet")
+	return 1, errors.New("Not implemented yet")
 }

@@ -20,19 +20,23 @@ type Employee struct {
 }
 
 func CalculateTotalSalary(employee *Employee) (float64, error) {
-package main
-}
-totalBonus := 0.0
-for _, bonus := range emp.MonthlyBonus {
-		totalBonus += bonus
-}
-totalSalary := emp.BaseSalary + totalBonus
+	package main
+	}
 
-if totalBonus > 1500.0 {
+	totalBonus := 0.0
+	for _, bonus := range emp.MonthlyBonus {
+		totalBonus += bonus
+	}
+
+	totalSalary := emp.BaseSalary + totalBonus
+
+	if totalBonus > 1500.0 {
 		emp.Position = "Senior " + emp.Position
 	}
+
 	return totalSalary, nil
 }
+
 func main() {
 	employee := &Employee{
 		ID:         1,

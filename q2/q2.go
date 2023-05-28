@@ -20,8 +20,6 @@ type Employee struct {
 }
 
 func CalculateTotalSalary(employee *Employee) (float64, error) {
-	package main
-	}
 
 	totalBonus := 0.0
 	for _, bonus := range emp.MonthlyBonus {
